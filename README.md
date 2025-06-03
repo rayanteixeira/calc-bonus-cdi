@@ -4,6 +4,7 @@
 This project calculates daily interest bonuses for user wallet balances based on the CDI (Certificado de Depósito Interbancário) rate. The pipeline is implemented using PySpark and is designed to run on Databricks.
 
 ## 🧱 Project Structure
+
 bonus-cdi/
 ├── databases/         # datalake layers
 │   ├── bronze_layer  
@@ -25,19 +26,20 @@ bonus-cdi/
 ## ⚙️ Installation
 
 1. Requirements
-Docker:   
-   Docker installed: https://www.docker.com/products/docker-desktop 
-   Docker Compose: comes pre-installed with Docker Desktop on Windows/macOS. (Optional)
 
-Git:
-   Windows
+1.1 Docker:   
+    Docker installed: https://www.docker.com/products/docker-desktop 
+    Docker Compose: comes pre-installed with Docker Desktop on Windows/macOS. (Optional)
+
+1.2 Git:
+    Windows
       Installing Git on Windows
       Download the Installer: https://git-scm.com/download/win
       Run the Installer:
       Select “Git from the command line and also from 3rd-party software” for PATH.
       Choose “Use Git from Git Bash only” if you want to avoid modifying system PATH.
       Finish Installation
-   Linux:
+    Linux:
       ```
       sudo apt update
       sudo apt install git
