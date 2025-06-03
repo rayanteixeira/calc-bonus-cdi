@@ -5,6 +5,7 @@ This project calculates daily interest bonuses for user wallet balances based on
 
 ## 🧱 Project Structure
 
+```
 bonus-cdi/
 ├── databases/         # datalake layers
 │   ├── bronze_layer  
@@ -21,24 +22,18 @@ bonus-cdi/
 ├── main_flow.py       # Main script
 ├── README.md          # Project instructions
 └── requirements.txt   # Dependencies
-
+```
 
 ## ⚙️ Installation
 
 1. Requirements
 
-1.1 Docker:   
+Docker:   
+    ```
     Docker installed: https://www.docker.com/products/docker-desktop 
     Docker Compose: comes pre-installed with Docker Desktop on Windows/macOS. (Optional)
-
-1.2 Git:
-    Windows
-      Installing Git on Windows
-      Download the Installer: https://git-scm.com/download/win
-      Run the Installer:
-      Select “Git from the command line and also from 3rd-party software” for PATH.
-      Choose “Use Git from Git Bash only” if you want to avoid modifying system PATH.
-      Finish Installation
+    ```
+Git:
     Linux:
       ```
       sudo apt update
