@@ -1,0 +1,16 @@
+version: '3.8' # Docker Compose syntax version
+
+services:
+  pyspark_app:
+    build: . # Builds the image from the Dockerfile in the current directory
+    container_name: wallet_spark # Friendly name for the container
+    volumes:
+      # Mounts the 'database' folder from your host (Windows) to /app/database in the container.
+      - ./database:/app/database
+    environment:
+      # Environment variables that Spark can use
+      - SPARK_MASTER=local[*] # Runs Spark in local mode, using all available cores
+      - SPARK_UI_PORT=4040 # Port for the Spark web interface (optional but useful for debugging)
+    ports:
+      - "4040:4040" # Maps the Spark UI port from the container to your host
+    command: /opt/bitnami/spark/bin/spark-submit /app/main_flow.py # Command to run the PySpark script
