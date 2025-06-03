@@ -1,9 +1,9 @@
-# Bonus CDI Data Product
+### Bonus CDI Data Product
 
-## 📌 Overview
+#### 📌 Overview
 This project calculates daily interest bonuses for user wallet balances based on the CDI (Certificado de Depósito Interbancário) rate. The pipeline is implemented using PySpark and is designed to run on Databricks.
 
-## 🧱 Project Structure
+#### 🧱 Project Structure
 
 ```
 bonus-cdi/
@@ -24,21 +24,21 @@ bonus-cdi/
 └── requirements.txt   # Dependencies
 ```
 
-## ⚙️ Installation
+#### ⚙️ Installation
 
 1. Requirements
 
 Docker:   
-    ```
-    Docker installed: https://www.docker.com/products/docker-desktop 
-    Docker Compose: comes pre-installed with Docker Desktop on Windows/macOS. (Optional)
-    ```
+```
+Docker installed: https://www.docker.com/products/docker-desktop 
+Docker Compose: comes pre-installed with Docker Desktop on Windows/macOS. (Optional)
+```
+
 Git:
-    Linux:
-      ```
-      sudo apt update
-      sudo apt install git
-      ```
+```
+sudo apt update
+sudo apt install git
+```
 
 2. Clone the repository:
 ```
