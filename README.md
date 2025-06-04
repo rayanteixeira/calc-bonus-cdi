@@ -60,3 +60,9 @@ cd /Users/user/Documents/calc-bonus-cdi
 ```
 docker-compose up -build
 ```
+
+5. (Optional) Install SQLite Viewer in Visual Studio Code to visualize the data stored in the database.
+```
+Link: 
+https://marketplace.visualstudio.com/items?itemName=qwtel.sqlite-viewer
+```
