@@ -7,14 +7,20 @@ This project calculates daily interest bonuses for user wallet balances based on
 
 ```
 bonus-cdi/
-├── databases/         # datalake layers
+├── data/         # datalake layers
 │   ├── bronze_layer  
-│   ├── silver_layer  
-│   └── gold_layer
+│   └── raw_layer
+│           ├── transactions20250529.json
+│           ├── transactions20250530.json
+│           ├── transactions20250531.json
+│           ├── transactions20250601.json
+│           ├── transactions20250602.json
+│           └── cdi20250603.json
+├── databases/ 
+│   └── wallet 
 ├── scripts/
 │   ├── bz_layer  # process files (CDC)
-│   ├── sv_layer  # Intermediate historical
-│   └── gd_layer  # Final bonus cdi
+│   └── sv_layer  # Intermediate historical
 ├── docs/
 │   └── design.md      # Technical documentation
 ├── docker-compose.yml # Configuration file by Docker
