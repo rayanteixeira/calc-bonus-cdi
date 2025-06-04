@@ -58,7 +58,7 @@ cd /Users/user/Documents/calc-bonus-cdi
 
 4. Start the Docker container
 ```
-docker-compose up -build
+docker-compose up --build
 ```
 
 5. (Optional) Install SQLite Viewer in Visual Studio Code to visualize the data stored in the database.
