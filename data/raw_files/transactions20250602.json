@@ -1,0 +1,73 @@
+[
+    
+    {
+        "transaction_id": "txn_9004",
+        "user_id": "user_031",
+        "transaction_date": "2025-06-02T14:00:00",
+        "transaction_type": "Transfer",
+        "amount": 950.00,
+        "currency": "BRL",
+        "balance_before": 3500.00,
+        "balance_after": 2550.00
+    },
+    {
+        "transaction_id": "txn_9005",
+        "user_id": "user_031",
+        "transaction_date": "2025-06-02T17:40:00",
+        "transaction_type": "Deposit",
+        "amount": 1200.00,
+        "currency": "BRL",
+        "balance_before": 2550.00,
+        "balance_after": 3750.00
+    },
+    {
+        "transaction_id": "txn_9006",
+        "user_id": "user_031",
+        "transaction_date": "2025-06-02T20:10:00",
+        "transaction_type": "Payment",
+        "amount": 600.00,
+        "currency": "BRL",
+        "balance_before": 3750.00,
+        "balance_after": 3150.00
+    },
+    {
+        "transaction_id": "txn_8004",
+        "user_id": "user_032",
+        "transaction_date": "2025-06-02T17:30:00",
+        "transaction_type": "Deposit",
+        "amount": 500.00,
+        "currency": "BRL",
+        "balance_before": 1550.00,
+        "balance_after": 2050.00
+    },
+    {
+        "transaction_id": "txn_8005",
+        "user_id": "user_032",
+        "transaction_date": "2025-06-02T20:10:00",
+        "transaction_type": "Payment",
+        "amount": 450.00,
+        "currency": "BRL",
+        "balance_before": 2050.00,
+        "balance_after": 1600.00
+    },
+    {
+        "transaction_id": "txn_9004",
+        "user_id": "user_033",
+        "transaction_date": "2025-06-01T16:20:00",
+        "transaction_type": "Deposit",
+        "amount": 600.00,
+        "currency": "BRL",
+        "balance_before": 1800.00,
+        "balance_after": 2400.00
+    },
+    {
+        "transaction_id": "txn_9005",
+        "user_id": "user_033",
+        "transaction_date": "2025-06-02T19:30:00",
+        "transaction_type": "Payment",
+        "amount": 400.00,
+        "currency": "BRL",
+        "balance_before": 2400.00,
+        "balance_after": 2000.00
+    }
+]

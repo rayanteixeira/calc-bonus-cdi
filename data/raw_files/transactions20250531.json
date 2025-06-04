@@ -1,0 +1,32 @@
+[
+    {
+        "transaction_id": "txn_9002",
+        "user_id": "user_031",
+        "transaction_date": "2025-05-31T09:30:00",
+        "transaction_type": "Payment",
+        "amount": 400.00,
+        "currency": "BRL",
+        "balance_before": 4700.00,
+        "balance_after": 4300.00
+    },
+    {
+        "transaction_id": "txn_9003",
+        "user_id": "user_033",
+        "transaction_date": "2025-05-31T14:45:00",
+        "transaction_type": "Transfer",
+        "amount": 1760.00,
+        "currency": "BRL",
+        "balance_before": 40,
+        "balance_after": 1800.00
+    },
+    {
+        "transaction_id": "txn_9103",
+        "user_id": "user_034",
+        "transaction_date": "2025-05-31T14:45:00",
+        "transaction_type": "Payment",
+        "amount": 10.00,
+        "currency": "BRL",
+        "balance_before": 25.00,
+        "balance_after": 15.00
+    }
+]

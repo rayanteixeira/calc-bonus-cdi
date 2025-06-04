@@ -1,0 +1,114 @@
+[
+    {
+        "transaction_id": "txn_7001",
+        "user_id": "user_031",
+        "transaction_date": "2025-05-29T08:30:00",
+        "transaction_type": "Deposit",
+        "amount": 500.00,
+        "currency": "BRL",
+        "balance_before": 2000.00,
+        "balance_after": 2500.00
+    },
+    {
+        "transaction_id": "txn_7004",
+        "user_id": "user_031",
+        "transaction_date": "2025-05-29T08:55:00",
+        "transaction_type": "Payment",
+        "amount": 200.00,
+        "currency": "BRL",
+        "balance_before": 2500.00,
+        "balance_after": 2300.00
+    },
+    {
+        "transaction_id": "txn_7101",
+        "user_id": "user_031",
+        "transaction_date": "2025-05-29T12:10:00",
+        "transaction_type": "Deposit",
+        "amount": 500.00,
+        "currency": "BRL",
+        "balance_before": 2300.00,
+        "balance_after": 2800.00
+    },
+    {
+        "transaction_id": "txn_7102",
+        "user_id": "user_031",
+        "transaction_date": "2025-05-29T13:30:00",
+        "transaction_type": "Payment",
+        "amount": 150.00,
+        "currency": "BRL",
+        "balance_before": 2800.00,
+        "balance_after": 2650.00
+    },
+    {
+        "transaction_id": "txn_7103",
+        "user_id": "user_031",
+        "transaction_date": "2025-05-29T13:45:00",
+        "transaction_type": "Transfer",
+        "amount": 300.00,
+        "currency": "BRL",
+        "balance_before": 2650.00,
+        "balance_after": 2350.00
+    },
+    {
+        "transaction_id": "txn_7104",
+        "user_id": "user_031",
+        "transaction_date": "2025-05-29T15:20:00",
+        "transaction_type": "Deposit",
+        "amount": 700.00,
+        "currency": "BRL",
+        "balance_before": 2350.00,
+        "balance_after": 3050.00
+    },
+    {
+        "transaction_id": "txn_7105",
+        "user_id": "user_031",
+        "transaction_date": "2025-05-29T18:40:00",
+        "transaction_type": "Payment",
+        "amount": 3000.00,
+        "currency": "BRL",
+        "balance_before": 3050.00,
+        "balance_after": 50.00
+    },
+    {
+        "transaction_id": "txn_8001",
+        "user_id": "user_032",
+        "transaction_date": "2025-05-29T09:15:00",
+        "transaction_type": "Deposit",
+        "amount": 600.00,
+        "currency": "BRL",
+        "balance_before": 1500.00,
+        "balance_after": 2100.00
+    },
+    {
+        "transaction_id": "txn_8002",
+        "user_id": "user_032",
+        "transaction_date": "2025-05-29T11:45:00",
+        "transaction_type": "Payment",
+        "amount": 350.00,
+        "currency": "BRL",
+        "balance_before": 2100.00,
+        "balance_after": 1750.00
+    },
+    {
+        "transaction_id": "txn_9101",
+        "user_id": "user_034",
+        "transaction_date": "2025-05-29T10:00:00",
+        "transaction_type": "Payment",
+        "amount": 1750.00,
+        "currency": "BRL",
+        "balance_before": 1800.00,
+        "balance_after": 50.00
+    },
+    {
+        "transaction_id": "txn_9102",
+        "user_id": "user_034",
+        "transaction_date": "2025-05-29T12:30:00",
+        "transaction_type": "Payment",
+        "amount": 25.00,
+        "currency": "BRL",
+        "balance_before": 50.00,
+        "balance_after": 25.00
+    }
+    
+]
+

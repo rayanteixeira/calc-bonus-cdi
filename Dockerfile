@@ -28,7 +28,6 @@ USER 1001
 COPY requirements.txt .
 COPY scripts/bz_layer.py .
 COPY scripts/sv_layer.py .
-COPY scripts/gd_layer.py .
 
 # Installs the Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
